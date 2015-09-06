@@ -11,6 +11,7 @@
 
 @implementation DeviceModel
 
+//获取列表
 + (id)deviceListRequestWithName:(NSDictionary *)paramDic finifed:(void(^)(NSDictionary *dataDic))finished
 {
     DeviceModel *model = [[DeviceModel alloc] init];
