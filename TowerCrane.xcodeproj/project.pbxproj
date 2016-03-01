@@ -21,6 +21,7 @@
 		1031DE2F1B7E3FD300BDA193 /* HomeHeadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1031DE2E1B7E3FD300BDA193 /* HomeHeadModel.m */; };
 		1031DE321B7E492C00BDA193 /* CommenWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1031DE311B7E492C00BDA193 /* CommenWebViewController.m */; };
 		1031DE351B7E5AF000BDA193 /* DeviceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1031DE341B7E5AF000BDA193 /* DeviceModel.m */; };
+		10FD090F1C4B7D16005807D8 /* info.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10FD090E1C4B7D16005807D8 /* info.strings */; };
 		5347A1451B0CCFE40035EC7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5347A1441B0CCFE40035EC7C /* main.m */; };
 		5347A1481B0CCFE40035EC7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5347A1471B0CCFE40035EC7C /* AppDelegate.m */; };
 		5347A1531B0CCFE40035EC7C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5347A1511B0CCFE40035EC7C /* LaunchScreen.xib */; };
@@ -124,6 +125,7 @@
 		1031DE311B7E492C00BDA193 /* CommenWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommenWebViewController.m; sourceTree = "<group>"; };
 		1031DE331B7E5AF000BDA193 /* DeviceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceModel.h; sourceTree = "<group>"; };
 		1031DE341B7E5AF000BDA193 /* DeviceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceModel.m; sourceTree = "<group>"; };
+		10FD090E1C4B7D16005807D8 /* info.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = info.strings; sourceTree = "<group>"; };
 		5347A13F1B0CCFE40035EC7C /* TowerCrane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TowerCrane.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5347A1431B0CCFE40035EC7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5347A1441B0CCFE40035EC7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -330,6 +332,7 @@
 				53A052E71B1E17DC00BBCA7A /* Images.xcassets */,
 				5347A1F11B0CD0F50035EC7C /* Main.storyboard */,
 				5347A1421B0CCFE40035EC7C /* Supporting Files */,
+				10FD090E1C4B7D16005807D8 /* info.strings */,
 			);
 			path = TowerCrane;
 			sourceTree = "<group>";
@@ -780,6 +783,7 @@
 				TargetAttributes = {
 					5347A13E1B0CCFE40035EC7C = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 6T65K58Q3L;
 					};
 					5347A1571B0CCFE40035EC7C = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -814,6 +818,7 @@
 				5347A1531B0CCFE40035EC7C /* LaunchScreen.xib in Resources */,
 				53A052E81B1E17DC00BBCA7A /* Images.xcassets in Resources */,
 				538586D51B207BD0009A44DA /* MJRefresh.bundle in Resources */,
+				10FD090F1C4B7D16005807D8 /* info.strings in Resources */,
 				5347A1F21B0CD0F50035EC7C /* Main.storyboard in Resources */,
 				5347A1E61B0CD0EB0035EC7C /* homeButton.plist in Resources */,
 				5347A1E81B0CD0EB0035EC7C /* BreakrulesTableViewCell.xib in Resources */,
@@ -952,6 +957,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: binhui tao (DHS92M39M7)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -974,6 +980,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -995,6 +1002,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: binhui tao (DHS92M39M7)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -1010,6 +1018,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1020,11 +1029,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/TowerCrane/PrefixHeader.pch";
 				INFOPLIST_FILE = TowerCrane/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goyo.TowerCrane;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -1034,11 +1047,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/TowerCrane/PrefixHeader.pch";
 				INFOPLIST_FILE = TowerCrane/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goyo.TowerCrane;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
